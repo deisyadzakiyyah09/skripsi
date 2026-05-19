@@ -84,7 +84,16 @@ elif menu == "📊 Tentang Model":
     st.title("📊 Tentang Model")
 
     st.subheader("🤖 MobileNetV2")
-    st.write("Model CNN ringan yang digunakan untuk klasifikasi citra.")
+    st.write("""
+    MobileNetV2 digunakan sebagai model klasifikasi citra 
+    dengan arsitektur yang ringan dan efisien.
+    """)
+
+    st.subheader("🧠 EfficientNetV2-S")
+    st.write("""
+    EfficientNetV2-S digunakan untuk membantu meningkatkan 
+    performa klasifikasi kanker kulit.
+    """)
 
     st.subheader("📂 Dataset")
     st.markdown("""
